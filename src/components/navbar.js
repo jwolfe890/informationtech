@@ -15,7 +15,7 @@ const Navbar = props => {
                     <li><a className="nav-item" href="https://medium.com/me/stories/public">BLOG</a></li>
                     <li><a className="nav-item" href="https://www.linkedin.com/in/johnmwolfe/">LINKEDIN</a></li>
                     <li><a className="nav-item" href="https://twitter.com/johnwolfe820">TWITTER</a></li>
-                    <li><a className="nav-item" href="https://github.com/jwolfe890">CONTACT ME</a></li>
+                    <li><a className="nav-item" href="mailto:jwolfe890@gmail.com">CONTACT ME</a></li>
                 </ul>              
             </nav>
         </header>
@@ -24,6 +24,9 @@ const Navbar = props => {
 }
  
 export default Navbar;
+
+
+
 
 
 

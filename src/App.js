@@ -15,7 +15,7 @@ class App extends React.Component {
         <Router>
           <Navbar />
         </ Router>
-        <div className="banner"><h2>We're the professional, end-to-end, native solutions.</h2></div>
+        <div className="banner"><h2>What makes John a great software developer?</h2></div>
         <Gallery />
       </Fragment>
     );

@@ -6,11 +6,6 @@
         text-align: center;
     }
 
-    button {
-        color: pink;
-        background-color: pink;
-    }  
-
     img {
         width: 100%;
         height: 80vh;
@@ -35,19 +30,20 @@
 
     .nm span {
         width: 100%;
-        height: 100px;
+        height: 120px;
         position: absolute;
         background: rgba(0, 0, 0, 0.5);
     }
 
     .slick-next {
         right: 10px;
-        color: white;
+        color: black;
     }
 
     .slick-prev {
         left: 10px;
         z-index: 99;
+        color: black;
     }
 
    .slick-dots {
@@ -58,14 +54,14 @@
 
     .slick-dots li.slick-active button::before {
         font-weight: 900;
-        color: white;
+        color: black;
         font-size: 14px;
         opacity: 2;
     }
 
     .slick-dots li button::before {
         opacity: 2;
-        color: white;
+        color: black;
         font-weight: 900;
     } 
 
@@ -84,3 +80,33 @@
     .slick-dots li button::before {
         opacity: 2;
     }
+
+    h1 {
+        padding-top: 20px;
+        line-height: 0px;
+    }
+
+    .spn {
+        margin: 0px;
+        height: 0px;
+    }
+
+    .slick-prev::before {
+        right: 10px;
+        color: teal;
+    }
+
+    .slick-next::before {
+        right: 10px;
+        color: teal;
+    }
+
+    .slick-dots li button::before {
+        color: white;
+    }
+
+    .slick-dots {
+        padding-bottom: 10px;
+    }
+
+
