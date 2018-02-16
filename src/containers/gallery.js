@@ -17,10 +17,9 @@ class Gallery extends React.Component {
     return (
       <div className="container">
         <Slider {...settings} arrows={true} >
-          <div className="imtxt"><img src='http://placekitten.com/g/1000/600' /><div className="nm"><span><h1>Mobile Commerce</h1></span></div></div>
-          <div className="imtxt"><img src='http://placekitten.com/g/1000/600' /><div className="nm"><span><h1>Hello World</h1></span></div></div>
-          <div className="imtxt"><img src='http://placekitten.com/g/1000/600' /><div className="nm"><span><h1>Hello World</h1></span></div></div>
-          <div className="imtxt"><img src='http://placekitten.com/g/1000/600' /><div className="nm"><span><h1>Hello World</h1></span></div></div>
+          <div className="imtxt"><img src='https://preview.ibb.co/hfOkJ7/comp.jpg' /><div className="nm"><span><h1>Mobile Commerce</h1></span></div></div>
+          <div className="imtxt"><img src='https://preview.ibb.co/fmKxWS/colorful.jpg' /><div className="nm"><span><h1>Hello World</h1></span></div></div>
+          <div className="imtxt"><img src='https://preview.ibb.co/fuL4BS/learn_fast.jpg' /><div className="nm"><span><h1>Hello World</h1></span></div></div> 
         </Slider>
       </div>
     );
@@ -28,3 +27,6 @@ class Gallery extends React.Component {
 }
 
 export default Gallery;
+
+
+
