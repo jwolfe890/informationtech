@@ -1,17 +1,31 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Navbar from './components/navbar'
+import React, { Component, Fragment} from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom'
+import Gallery from './containers/gallery.js'
+import Navbar from './components/navbar.js'
+import ReactDOM from 'react-dom'
+import Slider from 'react-slick'
+import './App.css';
 
-class App extends Component {
-  render() {
+class App extends React.Component {
+  
+  render () {
+    
     return (
-      <Router>
-        <Navbar />
-      </Router>
+      <Fragment>
+        <Router>
+          <Navbar />
+        </ Router>
+        <div className="banner"><h2>We're the professional, end-to-end, native solutions.</h2></div>
+        <Gallery />
+      </Fragment>
     );
   }
 }
 
 export default App;
+
+
+
+
+
+
