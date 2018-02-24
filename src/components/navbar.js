@@ -6,9 +6,6 @@ const Navbar = props => {
   return (
       <Fragment>
         <header> 
-            <div className="logo-image">
-                <img className="logo-img" src={require("../images/logo.jpg")} alt="Mountain View" />
-            </div>
             <nav className="flex-nav">
                 <ul>
                     <li><a className="nav-item" href="https://github.com/jwolfe890">GITHUB</a></li>
