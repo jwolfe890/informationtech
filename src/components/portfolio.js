@@ -11,31 +11,28 @@ const Portfolio = () => {
                     <img src="http://res.cloudinary.com/dszmqm6le/image/upload/v1519851635/Webp.net-resizeimage_4.jpg" />
 
                     <div class="flex-row2">
-                        <span>Hello</span>
-                        <span>More stuff</span>
-                        <span>Blah</span>
+                        <h1>Quoriron</h1>
+                        <span>Awesome app dfafdas asdfas asdfasdf asdfasdfas asdfasd fasfas</span>
+                        <span>Powered by: aasdfasf asdfasd fasdfasdfa sdfasdafad afda</span>
                     </div>
 
                 </div>
 
                 <div class="flex-row">
-                    <img src="http://res.cloudinary.com/dszmqm6le/image/upload/v1519851635/Webp.net-resizeimage_4.jpg" />
-
-                    <div class="flex-row2">
-                        <span>Hello</span>
-                        <span>More stuff</span>
-                        <span>Blah</span>
+                    <img src="http://res.cloudinary.com/dszmqm6le/image/upload/v1519851635/Webp.net-resizeimage_4_copy_2.jpg" />                    <div class="flex-row2">
+                        <h1>Top5</h1>
+                        <span>Awesome app dfafdas asdfas asdfasdf asdfasdfas asdfasd fasfas</span>
+                        <span>Powered by: aasdfasf asdfasd fasdfasdfa sdfasdafad afda</span>
                     </div>
 
                 </div>
 
                 <div class="flex-row">
-                    <img src="http://res.cloudinary.com/dszmqm6le/image/upload/v1519851635/Webp.net-resizeimage_4.jpg" />
-
+                <img src="http://res.cloudinary.com/dszmqm6le/image/upload/v1519851635/Webp.net-resizeimage_4_copy.jpg" />
                     <div class="flex-row2">
-                        <span>Hello</span>
-                        <span>More stuff</span>
-                        <span>Blah</span>
+                        <h1>Task Manager</h1>
+                        <span>Awesome app dfafdas asdfas asdfasdf asdfasdfas asdfasd fasfas</span>
+                        <span>Powered by: aasdfasf asdfasd fasdfasdfa sdfasdafad afda</span>
                     </div>
 
                 </div>
