@@ -7,6 +7,7 @@ import ReactDOM from 'react-dom'
 import Slider from 'react-slick'
 import './App.css';
 import Portfolio from './components/portfolio.js'
+import Footer from './components/footer.js'
 
 class App extends React.Component {
   
@@ -21,6 +22,7 @@ class App extends React.Component {
         <Gallery />
         <About />
         <Portfolio />
+        <Footer />
       </Fragment>
     );
   }
