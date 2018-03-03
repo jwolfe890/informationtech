@@ -1,0 +1,57 @@
+.john {
+    height: 250px;
+    width: 250px;
+    margin-right: 20px;
+    margin-top: 20px;
+    box-shadow: 14px 14px teal;
+}
+
+.about {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.things2 {
+    margin-left: 60px;
+    font-size: 20px;
+    padding-top: 20px;
+    width: 50rem;
+}
+
+.things2::first-line {
+    font-size: 30px;
+}
+
+h2 {
+    margin-left: 10%;
+    margin-bottom: 0px;
+    font-size: 50px;
+}
+
+.john {
+    margin-top: 0px;
+    margin-left: 100px;
+}
+
+@media screen and (max-width: 720px) {
+    .about {
+        flex-direction: column;
+    }
+
+    .john {
+        margin: 0px;
+        height: 65%;
+        width: 50vw;
+    }
+    .things {
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .things2 {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+}
+

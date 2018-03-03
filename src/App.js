@@ -2,9 +2,11 @@ import React, { Component, Fragment} from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom'
 import Gallery from './containers/gallery.js'
 import Navbar from './components/navbar.js'
+import About from './components/About.js'
 import ReactDOM from 'react-dom'
 import Slider from 'react-slick'
 import './App.css';
+import Portfolio from './components/portfolio.js'
 
 class App extends React.Component {
   
@@ -15,8 +17,10 @@ class App extends React.Component {
         <Router>
           <Navbar />
         </ Router>
-        <div className="banner"><h2>What makes John a great software developer?</h2></div>
+        <div className="banner"><h2>Why should you hire John?</h2></div>
         <Gallery />
+        <About />
+        <Portfolio />
       </Fragment>
     );
   }
@@ -27,5 +31,4 @@ export default App;
 
 
 
-1-866-216-1072
 

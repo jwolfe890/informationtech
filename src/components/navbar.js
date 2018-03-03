@@ -8,6 +8,7 @@ const Navbar = props => {
         <header> 
             <nav className="flex-nav">
                 <ul>
+                    <li className="nav-item2">JW</li>
                     <li><a className="nav-item" href="https://github.com/jwolfe890">GITHUB</a></li>
                     <li><a className="nav-item" href="https://medium.com/@johnwolfe820">BLOG</a></li>
                     <li><a className="nav-item" href="https://www.linkedin.com/in/johnmwolfe/">LINKEDIN</a></li>

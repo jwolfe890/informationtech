@@ -88,12 +88,12 @@
 
     .slick-prev::before {
         right: 10px;
-        color: teal;
+        color: white;
     }
 
     .slick-next::before {
         right: 10px;
-        color: teal;
+        color: white;
     }
 
     .slick-dots li button::before {
