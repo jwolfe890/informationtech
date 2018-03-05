@@ -12,15 +12,16 @@ import Footer from './components/footer.js'
 class App extends React.Component {
   
   render () {
-    
     return (
       <Fragment>
-        <Portfolio /> 
         <Router>
-          {/* <Navbar /> */}
+          <Navbar />
         </ Router>
-          {/* <About />
-          <Portfolio /> */}
+        <div className="banner"><h2>Why should you hire John?</h2></div>
+          <Gallery />
+          <About />
+          <Portfolio />
+          <Footer />
       </Fragment>
     );
   }
@@ -29,7 +30,7 @@ class App extends React.Component {
 export default App;
 
 
-{/* <div className="banner"><h2>Why should you hire John?</h2></div>
+{/* 
 <Gallery />
 <About />
 <Portfolio />
