@@ -6,7 +6,8 @@
     height: 250px;
     width: 250px;
     margin-right: 20px;
-    box-shadow: 14px 14px teal;
+    -webkit-box-shadow: 14px 14px teal;
+            box-shadow: 14px 14px teal;
 }
 
 .about1 {
@@ -14,6 +15,8 @@
 }
 
 .about {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -21,7 +24,7 @@
     margin-left: 60px;
     font-size: 20px;
     padding-top: 20px;
-    width: 60rem;
+    width: 80rem;
 }
 
 .things2::first-line {
@@ -38,15 +41,18 @@ h2 {
     margin-left: 100px;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 950px) {
     .about {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 
     .john {
         margin: 0px;
-        height: 65%;
-        width: 50vw;
+        height: 265px;
+        width: 270px;
     }
     .things {
         margin: 0 auto;
@@ -60,3 +66,10 @@ h2 {
 
 }
 
+@media screen and (max-width: 600px) {
+
+
+    .things2 {
+        font-size: 15px;
+    }
+  }
