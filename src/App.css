@@ -1,10 +1,5 @@
-body {
-    margin: 0px;
-    padding: 0px;
-    font-size: 10px;
-}
-
 html {
+    font-size: 10px;
     margin: 0px;
     padding: 0px;
     font-family: "Open Sans"; 
@@ -28,4 +23,5 @@ html {
     font-weight: 500;
     color: #fff;
 }
+
 

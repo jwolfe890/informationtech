@@ -4,6 +4,7 @@ header {
   overflow: hidden;
   background-color: black;
   position: fixed; 
+  top: 0;
   z-index: 99;
 }
 
@@ -73,23 +74,23 @@ header {
   margin-left: 90px;
 }
 
-  @font-face { 
-      font-family: "Open Sans"; 
-      font-style: normal; 
-      font-weight: 400; 
-      src: local("Open Sans Regular"), 
-      local("OpenSans-Regular"), 
-      url("https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2") format("woff2"); 
-      unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; 
-    }
+@font-face { 
+  font-family: "Open Sans"; 
+  font-style: normal; 
+  font-weight: 400; 
+  src: local("Open Sans Regular"), 
+  local("OpenSans-Regular"), 
+  url("https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2") format("woff2"); 
+  unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; 
+}
 
 
-    @media screen and (max-width: 600px) {
-      .nav-item {
-          visibility: hidden;
-      }
-      .nav-item2 {
-        border: 1px solid;
-        padding: 6.5px;
-      }
-    }
+@media screen and (max-width: 600px) {
+  .nav-item {
+      visibility: hidden;
+  }
+  .nav-item2 {
+    border: 1px solid;
+    padding: 6.5px;
+  }
+}

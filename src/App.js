@@ -15,14 +15,12 @@ class App extends React.Component {
     
     return (
       <Fragment>
+        <Portfolio /> 
         <Router>
-          <Navbar />
+          {/* <Navbar /> */}
         </ Router>
-        <div className="banner"><h2>Why should you hire John?</h2></div>
-        <Gallery />
-        <About />
-        <Portfolio />
-        <Footer />
+          {/* <About />
+          <Portfolio /> */}
       </Fragment>
     );
   }
@@ -31,6 +29,11 @@ class App extends React.Component {
 export default App;
 
 
+{/* <div className="banner"><h2>Why should you hire John?</h2></div>
+<Gallery />
+<About />
+<Portfolio />
+<Footer /> */}
 
 
 

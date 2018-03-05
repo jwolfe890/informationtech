@@ -5,18 +5,18 @@
 }
 
 .flex-row {
+    font-size: 18px;
     margin-top: 40px;
     display: flex;
-    flex-wrap: wrap;
 }
 
 .portfolio img {
     margin-left: 100px;
-    max-width: 330px;
-    max-height: 195px;
-    width: auto;
-    height: auto;
+    max-width: 430px;
+    max-height: 245px;
+    margin-top: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 .portfolio h2 {
@@ -27,6 +27,16 @@
     margin-left: 60px;
     display: flex;
     flex-direction: column;
+}
+
+.box1 {
+    padding-top: 5px;
+}
+
+.social {
+    padding: 3px;
+    border: 2px solid;
+    margin-right: 10px;
 }
 
 @media screen and (max-width: 720px) {
