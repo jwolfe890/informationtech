@@ -23,6 +23,10 @@ header {
   text-decoration: none;
 }
 
+.flex-nav {
+  margin-top: 12px;
+}
+
 .nav-item2 {
   border: 1px solid;
   padding: 6.5px;
@@ -85,9 +89,9 @@ header {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .nav-item {
-      visibility: hidden;
+      display: none;
   }
   .nav-item2 {
     border: 1px solid;
