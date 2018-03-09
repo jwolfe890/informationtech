@@ -1,11 +1,12 @@
 .wrapper {
     background-color: teal;
     color: white;
-    height: 100px;
+    height: auto;
     display: flex;
     justify-content: space-between;
     padding-left: 20%;
     padding-right: 20%;
+    padding-top: 15px;
 }
 
 .top .item {
@@ -39,7 +40,7 @@
 }
 
 .wrapper {
-    padding-bottom: 10px;
+   padding-bottom: 25px;
     background-color: teal;
 }
 
