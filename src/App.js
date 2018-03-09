@@ -17,11 +17,9 @@ class App extends React.Component {
         <Router>
           <Navbar />
         </ Router>
-        <div className="banner"><h2>Why should you hire John?</h2></div>
-          <Gallery />
-          <About />
-          <Portfolio />
-          <Footer />
+        <About />
+        <Portfolio />
+        <Footer /> 
       </Fragment>
     );
   }
@@ -29,12 +27,6 @@ class App extends React.Component {
 
 export default App;
 
-
-{/* 
-<Gallery />
-<About />
-<Portfolio />
-<Footer /> */}
 
 
 

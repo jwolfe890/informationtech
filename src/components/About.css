@@ -25,6 +25,7 @@
     font-size: 20px;
     padding-top: 20px;
     width: 80rem;
+    padding-right: 40px;
 }
 
 .things2::first-line {
@@ -39,6 +40,14 @@ h2 {
 .john {
     margin-top: 0px;
     margin-left: 100px;
+}
+
+.abt {
+    color: orange;
+}
+
+.about1 {
+    margin-top: 50px;
 }
 
 @media screen and (max-width: 950px) {
@@ -62,13 +71,12 @@ h2 {
     .things2 {
         max-width: 90%;
         margin: 0 auto;
+        padding-right: 10px;
     }
 
 }
 
 @media screen and (max-width: 600px) {
-
-
     .things2 {
         font-size: 15px;
     }

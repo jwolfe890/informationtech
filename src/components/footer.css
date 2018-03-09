@@ -1,4 +1,56 @@
 .wrapper {
-    background-color: black;
+    background-color: teal;
+    color: white;
     height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
 }
+
+.top .item {
+    padding-top: 10px;
+    padding-bottom: 2px;
+}
+
+.bottom .item {
+    padding-top: 10px;
+    padding-bottom: 2px;
+}
+
+.item {
+    font-size: 20px;
+}
+
+.item2 {
+    font-size: 12px;
+}
+
+.top {
+    margin-right: 10px;
+}
+
+.em {
+    color: white;
+}
+
+.item2 a {
+    color: orange;
+}
+
+.wrapper {
+    padding-bottom: 10px;
+    background-color: teal;
+}
+
+@media screen and (max-width: 700px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+
+    .item {
+        font-size: 15px;
+    }
+
+  }
