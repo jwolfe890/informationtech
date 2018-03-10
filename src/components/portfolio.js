@@ -20,7 +20,7 @@ const Portfolio = () => {
                 </div>
                     <div class="flex-row">
                     <img src="http://res.cloudinary.com/dszmqm6le/image/upload/v1519851635/Webp.net-resizeimage_4_copy_2.jpg" />                    <div class="flex-row2">
-                        <h1 class="proj">Top5</h1>
+                        <h1 class="proj2">Top5</h1>
                         <span class="box1">An application that allows users to make Top 5 lists and search and view other users’ lists. Implemented the Ruby on Rails framework and the Devise gem with OAUTH to provide custom authentication. Incorporated ActiveRecord Scope Methods to organize, rate and classify lists. Incorporated Rails nested routes, validations, scope methods, aliasing, and collection select to allow users multiple categorical options for searching and creating Top 5 lists</span>
                         <span class="box2">Powered by: Ruby on Rails</span>
                         <div>
@@ -32,7 +32,7 @@ const Portfolio = () => {
                 <div class="flex-row">
                 <img src="http://res.cloudinary.com/dszmqm6le/image/upload/v1519851635/Webp.net-resizeimage_4_copy.jpg" />
                     <div class="flex-row2">
-                        <h1 class="proj">Task Manager</h1>
+                        <h1 class="proj2">Task Manager</h1>
                         <span class="box1">An application that provides users the ability to create create, edit, and delete tasks. Implemented the Jquery within a Ruby on Rails Framework. Translated JSON responses to Javascript model objects and built out methods on the model object prototype. Implemented AJAX calls to a Rails controller for asynchronous changes to the DOM</span>
                         <span class="box2">Powered by: Ruby on Rails, JQuery, JavaScript</span>
                         <div>
