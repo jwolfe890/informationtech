@@ -6,6 +6,10 @@ html {
     font-style: normal; 
 }
 
+body {
+    -webkit-text-size-adjust: none;
+}
+
 .banner {
     font-size: 100%;
     margin: 0 auto;
