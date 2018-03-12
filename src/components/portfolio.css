@@ -136,6 +136,12 @@ h2 {
     }
 
 
+    /* @media only screen and (min-device-width : 360px) and (max-device-width : 640px){
+
+        GALAXY7 
+    } */
+
+
     /* Footer and navbars dont go the whole way across on my Galaxy s7 portrait mode */
 
 
