@@ -6,29 +6,29 @@
     justify-content: space-between;
     padding-left: 20%;
     padding-right: 20%;
-    padding-top: 15px;
+    padding-top: 1.5rem;
 }
 
 .top .item {
-    padding-top: 10px;
-    padding-bottom: 2px;
+    padding-top: 1rem;
+    padding-bottom: .2rem;
 }
 
 .bottom .item {
-    padding-top: 10px;
-    padding-bottom: 2px;
+    padding-top: 1rem;
+    padding-bottom: .2rem;
 }
 
 .item {
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 .item2 {
-    font-size: 12px;
+    font-size: 1.2rem;
 }
 
 .top {
-    margin-right: 10px;
+    margin-right: 1rem;
 }
 
 .em {
@@ -40,18 +40,18 @@
 }
 
 .wrapper {
-   padding-bottom: 25px;
+   padding-bottom: 2.5rem;
     background-color: teal;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 70rem) {
     .wrapper {
         flex-direction: column;
     }
 
 
     .item {
-        font-size: 15px;
+        font-size: 1.5rem;
     }
 
   }
