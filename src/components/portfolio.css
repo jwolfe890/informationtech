@@ -130,6 +130,17 @@ h2 {
 
 and (max-device-width : 568px) { 
 
+    body {
+        -webkit-text-size-adjust: none;
+    }
+    
+    .portfolio {
+        height: 100%;
+        background-color: #EEEEEE;
+        padding-bottom: 2rem;
+        padding-right: 4rem;
+    }
+
     .portfolio h2 {
         font-size: 30px;
     }
@@ -167,12 +178,70 @@ and (max-device-width : 568px) {
         height: 100%;
         margin-right: 100px;
     }
+
+    h2 {
+        padding-top: 2rem;
+    }
+    
+    .flex-row2 {
+        margin-left: 6rem;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    
+    .box1 {
+        padding-bottom: 2rem;
+    }
+    
+    .box2 {
+        padding-bottom: 2rem;
+    }
+    
+    .social {
+        padding: .3rem;
+        border: .2rem solid;
+        margin-right: 1rem;
+    }
+    
+    .proj {
+        margin-bottom: 1.5rem;
+     }
+    
+     a {
+         text-decoration: none;
+         color: black;
+     }
+    
+     .social:hover {
+         color: teal;
+     }
+    
+     .proj2 {
+         margin-top: 1rem;
+         margin-bottom: 1.5rem;
+     }
 
 }
 
 
 @media screen and (device-aspect-ratio: 40/71) {
 
+    body {
+        -webkit-text-size-adjust: none;
+    }
+    
+    .portfolio {
+        height: 100%;
+        background-color: #EEEEEE;
+        padding-bottom: 2rem;
+        padding-right: 4rem;
+    }
+
     .portfolio h2 {
         font-size: 30px;
     }
@@ -211,5 +280,58 @@ and (max-device-width : 568px) {
         margin-right: 100px;
     }
 
+    h2 {
+        padding-top: 2rem;
+    }
+    
+    .flex-row2 {
+        margin-left: 6rem;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    
+    .box1 {
+        padding-bottom: 2rem;
+    }
+    
+    .box2 {
+        padding-bottom: 2rem;
+    }
+    
+    .social {
+        padding: .3rem;
+        border: .2rem solid;
+        margin-right: 1rem;
+    }
+    
+    .proj {
+        margin-bottom: 1.5rem;
+     }
+    
+     a {
+         text-decoration: none;
+         color: black;
+     }
+    
+     .social:hover {
+         color: teal;
+     }
+    
+     .proj2 {
+         margin-top: 1rem;
+         margin-bottom: 1.5rem;
+     }
+
 }
+
+
+
+
+
+
 
