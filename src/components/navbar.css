@@ -10,7 +10,7 @@ header {
 
 .nav-item {
   margin-right: 5px;
-  font-size: 14px;
+  font-size: 16px;
   text-transform: uppercase;
   color: white;
   padding: 0px;
@@ -24,7 +24,7 @@ header {
 }
 
 .flex-nav {
-  margin-top: 12px;
+  margin-top: 12.5px;
 }
 
 .nav-item2 {
@@ -58,7 +58,7 @@ header {
   transition: border-bottom .5s ease-out;   
 }
 
-.flex-nav ul {
+.flex-nav .top-bar {
   list-style: none;
   display: flex;
   padding: 0px;
@@ -93,10 +93,97 @@ header {
   .nav-item {
       display: none;
   }
+
   .nav-item2 {
     border: 1px solid;
     padding: 6.5px;
   }
 }
 
+@media screen and (min-width: 700px) {
+  .stuff {
+    visibility: hidden;
+  }
+}
 
+
+
+.none {
+  display: none;
+}
+
+.stuff {
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+
+.stuff {
+  background-color: black;
+  width: 90px;
+  margin-left: 0px;
+  list-style-type: none;
+  color: red;
+  z-index: 20;
+  position: fixed;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+
+
+.heading {
+  display: block;
+  animation-name: moveInRight;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  opacity: 1;
+  color: #FD3A4A;
+}
+
+.heading2 {
+  display: block;
+  animation-name: moveOut;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  opacity: 1;
+  color: #FD3A4A;
+}
+
+@keyframes moveInRight {
+  0% {
+      transform: translateX(-10rem);
+  }
+
+   100% {
+     transform: translateX(0);
+   }
+}
+
+@keyframes moveOut { 
+  0% {
+      transform: translateX(0);
+  }
+
+   100% {
+     transform: translateX(-15rem);
+   }
+}
+
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+.stuff li {
+  padding-bottom: 5px;
+}
+
+.stuff li a:hover {
+  color: orange;
+}
+
+.nav-item2 {
+  cursor: pointer;
+}
