@@ -114,3 +114,13 @@ h2 {
         margin-top: 20px;
     }
   }
+
+  @media screen and (max-width: 307px) {
+        .portfolio h2 {
+            font-size: 30px;
+        }
+
+        .portfolio {
+            width: 100vw;
+        }
+    }

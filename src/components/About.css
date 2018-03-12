@@ -81,3 +81,10 @@ h2 {
         font-size: 15px;
     }
   }
+
+  @media screen and (max-width: 307px) {
+    .john {
+        max-width: 90vw;
+        max-width: 40vh;
+    }
+  }
