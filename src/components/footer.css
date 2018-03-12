@@ -42,6 +42,8 @@
 .wrapper {
    padding-bottom: 2.5rem;
     background-color: teal;
+    position: fixed;
+    z-index: 100;
 }
 
 @media screen and (max-width: 70rem) {
