@@ -128,8 +128,11 @@ h2 {
 
     @media only screen and (min-device-width : 320px) 
     and (max-device-width : 568px) { 
-    
         .demos {
+            display: none;
+        }
+
+        .box2 {
             display: none;
         }
     

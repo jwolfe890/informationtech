@@ -1,6 +1,6 @@
 header {
-  width: 100vw;
-  height: 70px;
+  width: 100%;
+  height: 7rem;
   overflow: hidden;
   background-color: black;
   position: fixed; 
@@ -9,12 +9,12 @@ header {
 }
 
 .nav-item {
-  margin-right: 5px;
-  font-size: 16px;
+  margin-right: .5rem;
+  font-size: 1.6rem;
   text-transform: uppercase;
   color: white;
   padding: 0px;
-  line-height: 40px;
+  line-height: 4rem;
   font-weight: 500;
   text-shadow: none;
   -moz-transition: all .3s linear;
@@ -35,7 +35,7 @@ header {
   font-style: bold;
   line-height: 30px;
   font-weight: 500;
-  font-size: 50px;
+  font-size: 5rem;
   text-shadow: none;
   -moz-transition: all .3s linear;
   -webkit-transition: all .3s linear;
@@ -49,8 +49,8 @@ header {
 }
 
 .flex-nav li {
-  margin-left: 40px;
-  font-size: 15px;
+  margin-left: 4rem;
+  font-size: 1.5rem;
 }
 
 .flex-nav .nav-item:hover {
@@ -62,7 +62,7 @@ header {
   list-style: none;
   display: flex;
   padding: 0px;
-  padding-right: 50px;
+  padding-right: 5rem;
 }
 
 .logo-image {
@@ -73,9 +73,9 @@ header {
   position: absolute;
   top: 0;
   left: 0;
-  width: 200px;
-  height: 55px;
-  margin-left: 90px;
+  width: 20rem;
+  height: 5.5rem;
+  margin-left: 9rem;
 }
 
 @font-face { 
@@ -119,13 +119,13 @@ header {
 
 .stuff {
   background-color: black;
-  width: 90px;
+  width: 9rem;
   margin-left: 0px;
   list-style-type: none;
   color: red;
   z-index: 20;
   position: fixed;
-  padding: 10px;
+  padding: 1rem;
   font-size: 1.2rem;
 }
 
@@ -177,7 +177,7 @@ li a {
 }
 
 .stuff li {
-  padding-bottom: 5px;
+  padding-bottom: .5rem;
 }
 
 .stuff li a:hover {

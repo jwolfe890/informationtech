@@ -65,5 +65,9 @@
       .wrapper {
           display: none;
       }
+
+      .wrapper {
+          background-color: grey;
+      }
   
   }
