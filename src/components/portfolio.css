@@ -130,16 +130,14 @@ h2 {
 
     @media only screen and (min-device-width : 320px) 
     and (max-device-width : 568px) { 
-        /* .demos {
-            display: none;
-        } */
+
 
         .flex-row {
-            padding-bottom: 4rem;
+            padding-bottom: 6rem;
         }
 
         .flex-row2 {
-            padding-bottom: 4rem;
+            padding-bottom: 6rem;
         }
     
     }
