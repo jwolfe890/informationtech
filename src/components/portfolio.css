@@ -129,9 +129,7 @@ h2 {
 
 
     @media only screen and (min-device-width : 320px) 
-    and (max-device-width : 568px) { 
-
-
+    and (max-device-width : 568px) and (orientation : portrait) { 
         .flex-row {
             padding-bottom: 8rem;
         }
@@ -139,7 +137,17 @@ h2 {
         .flex-row2 {
             padding-bottom: 8rem;
         }
-    
+    }
+
+    @media only screen and (min-device-width : 320px) 
+    and (max-device-width : 568px) and (orientation : landscape) { 
+        .flex-row {
+            padding-bottom: 8rem;
+        }
+
+        .flex-row2 {
+            padding-bottom: 8rem;
+        }
     }
 
 
