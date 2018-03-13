@@ -134,9 +134,9 @@ h2 {
             display: none;
         }
 
-        /* .box2 {
-            display: none;
-        } */
+        .flex-row {
+            padding-bottom: 1rem;
+        }
 
         .flex-row2 {
             padding-bottom: 2rem;
