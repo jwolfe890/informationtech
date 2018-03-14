@@ -117,16 +117,15 @@ h2 {
     }
   }
 
-  @media screen and (max-width: 307px) {
+   @media screen and (max-width: 307px) {
         .portfolio h2 {
             font-size: 30px;
         }
 
         .portfolio {
-            width: 100vw;
+            width: 90%;
         }
     }
-
 
     @media only screen and (min-device-width : 320px) 
     and (max-device-width : 568px) and (orientation : portrait) { 

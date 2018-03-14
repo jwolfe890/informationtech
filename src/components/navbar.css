@@ -24,16 +24,16 @@ header {
 }
 
 .flex-nav {
-  margin-top: 12.5px;
+  margin-top: 1.25rem;
 }
 
 .nav-item2 {
   border: 1px solid;
-  padding: 6.5px;
+  padding: .65rem;
   text-transform: uppercase;
   color: white;
   font-style: bold;
-  line-height: 30px;
+  line-height: 3rem;
   font-weight: 500;
   font-size: 5rem;
   text-shadow: none;
@@ -54,7 +54,7 @@ header {
 }
 
 .flex-nav .nav-item:hover {
-  border-bottom: 2px solid teal; 
+  border-bottom: .2rem solid teal; 
   transition: border-bottom .5s ease-out;   
 }
 
