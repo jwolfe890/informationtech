@@ -107,19 +107,19 @@ h2 {
 
   @media screen and (max-width: 600px) {
     .flex-row2 {
-        font-size: 15px;
+        font-size: 1.5rem;
     }
   }
 
   @media screen and (max-width: 1049px) and (min-width: 720px) {
     .third {
-        margin-top: 20px;
+        margin-top: 2rem;
     }
   }
 
    @media screen and (max-width: 307px) {
         .portfolio h2 {
-            font-size: 30px;
+            font-size: 3rem;
         }
 
         .portfolio {
