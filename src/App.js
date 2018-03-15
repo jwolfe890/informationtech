@@ -17,6 +17,7 @@ class App extends React.Component {
         <Router>
           <Navbar />
         </ Router>
+        <Gallery />
         <About />
         <Portfolio />
         <Footer /> 
