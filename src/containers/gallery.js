@@ -15,7 +15,7 @@ class Gallery extends React.Component {
     var settings = {
       slidesToShow: 1,
       dots: true,
-      slidesToScroll: 1,
+      slidesToScroll: 3,
       swipe: true,
       autoplay: true,
       fade: true,
