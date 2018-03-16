@@ -206,23 +206,14 @@ and (max-width: 568px) {
 @media only screen and (min-device-width : 320px) 
 and (max-device-width : 568px) and (orientation : portrait) { 
     .flex-row {
-        padding-bottom: 6rem;
-    }
-
-    .flex-row2 {
-        padding-bottom: 6rem;
-    }
-}
-
-
-@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 3) { 
-
-    .flex-row {
         padding-bottom: 1rem;
     }
 
     .flex-row2 {
         padding-bottom: 1rem;
     }
-
 }
+
+
+
+
