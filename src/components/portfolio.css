@@ -214,12 +214,15 @@ and (max-device-width : 568px) and (orientation : portrait) {
     }
 }
 
-    /* @media only screen and (min-device-width : 360px) and (max-device-width : 640px){
 
-        GALAXY7 
-    } */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 3) { 
 
+    .flex-row {
+        padding-bottom: 1rem;
+    }
 
-    /* Footer and navbars dont go the whole way across on my Galaxy s7 portrait mode */
+    .flex-row2 {
+        padding-bottom: 1rem;
+    }
 
-
+}
