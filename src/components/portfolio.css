@@ -196,11 +196,15 @@ and (orientation : portrait) {
 @media only screen and (min-device-width : 320px) 
 and (max-device-width : 568px) and (orientation : portrait) { 
     .flex-row {
-        padding-bottom: 1rem;
+        padding-bottom: 2rem;
     }
 
     .flex-row2 {
-        padding-bottom: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .proj2 {
+        padding-top: 4rem;
     }
 }
 
