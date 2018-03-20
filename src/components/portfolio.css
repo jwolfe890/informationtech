@@ -145,10 +145,10 @@ and (max-device-width : 812px) {
 and (min-device-width : 320px) 
 and (max-device-width : 568px) {
     .flex-row {
-        padding-bottom: 5rem;
+        padding-bottom: 3rem;
     }
     .flex-row2 {
-        padding-bottom: 5rem;
+        padding-bottom: 3rem;
     }
 }
 
@@ -157,10 +157,10 @@ and (min-device-width : 320px)
 and (max-device-width : 568px) 
 and (orientation : landscape) {
     .flex-row {
-        padding-bottom: 10rem;
+        padding-bottom: 8rem;
     }
     .flex-row2 {
-        padding-bottom: 10rem;
+        padding-bottom: 8rem;
     }
 }
 
