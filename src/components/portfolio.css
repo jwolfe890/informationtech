@@ -150,7 +150,7 @@ and (max-device-width : 812px) {
     }
 
     .portfolio {
-        width: 100%;
+        width: 100vw;
     }
 }
 
