@@ -149,13 +149,6 @@ and (max-device-width : 812px) {
         padding-bottom: 0rem;
     }
 
-    .portfolio img {
-        padding-right: 30%;
-    }
-
-    .portfolio {
-        width: 100vw;
-    }
 }
 
 
