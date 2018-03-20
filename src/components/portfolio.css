@@ -135,6 +135,16 @@ and (max-device-width : 812px) {
         padding-bottom: 0rem;
     }
 
+    .box2 {
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+    .demos {
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
     .flex-row2 {
         padding-bottom: 0rem;
     }
